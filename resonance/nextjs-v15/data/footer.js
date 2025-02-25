@@ -51,7 +51,7 @@ export const socialMediaLinks = [
 export const navigationLinks = [
   { href: "#about", text: "About" },
   { href: "#services", text: "Services" },
-  { href: "#portfolio", text: "Portfolio" },
-  { href: "#blog", text: "Blog" },
+  { href: "#how-we-work", text: "How We Work" },
+  { href: "#client-stories", text: "Client Stories" },
   { href: "#contact", text: "Contact" },
 ];

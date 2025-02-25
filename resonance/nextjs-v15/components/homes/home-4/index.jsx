@@ -101,11 +101,12 @@ export default function Home4({ onePage = false, dark = false }) {
       </section>
 
       <section
-        className="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content"
+        className="page-section scrollSpysection bg-primary-1 bg-color-alpha-90 bg-scroll light-content"
         style={{
           backgroundImage:
             "url(/assets/images/demo-corporate/section-bg-2.jpg)",
         }}
+        id="how-we-work"
       >
         <Steps />
       </section>
@@ -113,15 +114,14 @@ export default function Home4({ onePage = false, dark = false }) {
         className={`page-section  scrollSpysection  ${
           dark ? "bg-dark-1 light-content" : ""
         } `}
-        id="clients-stories"
+        id="client-stories"
       >
         <Testimonials />
       </section>
       <section
         className="page-section bg-scroll light-content"
         style={{
-          backgroundImage:
-            "url(/assets/images/demo-corporate/section-bg-3.jpg)",
+          backgroundImage: "url(/assets/images/team.jpg)",
         }}
       >
         {/* Desktop Overlay */}
@@ -169,63 +169,6 @@ export default function Home4({ onePage = false, dark = false }) {
               {/* End Features List */}
             </div>
           </div>
-        </div>
-      </section>
-      <section
-        className={`page-section  scrollSpysection  ${
-          dark ? "bg-dark-1 light-content" : ""
-        } `}
-        id="blog"
-      >
-        <div className="container position-relative">
-          <div className="row">
-            <div className="col-lg-5 col-xl-4 mb-md-70 mb-sm-50">
-              <h2 className="section-title mb-40 mb-xs-30">Our Blog</h2>
-              <p className="section-descr dark-white mb-50 mb-sm-40">
-                Check the best marketing resources and the latest news about our
-                company.
-              </p>
-              <div className="local-scroll">
-                <Link
-                  href={`/corporate-blog-dark`}
-                  className={`btn btn-mod  ${
-                    dark ? "btn-dark" : "btn-w"
-                  }  btn-with-icon btn-circle`}
-                >
-                  <span className="btn-icon color-3">
-                    <i className="mi-link-alt" aria-hidden="true"></i>
-                  </span>
-                  <span data-btn-animate="y">
-                    <span className="btn-animate-y">
-                      <span className="btn-animate-y-1">
-                        Read All Articles{" "}
-                        <i className="mi-arrow-right" aria-hidden="true"></i>
-                      </span>
-                      <span className="btn-animate-y-2" aria-hidden="true">
-                        Read All Articles{" "}
-                        <i className="mi-arrow-right" aria-hidden="true"></i>
-                      </span>
-                    </span>
-                  </span>
-                </Link>
-              </div>
-            </div>{" "}
-            <Blog />
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <div
-          className={`page-section px-4 px-md-0 ${
-            dark
-              ? "bg-dark-2 border-dark light-content"
-              : "bg-gradient-primary-light-1"
-          }  round`}
-        >
-          {dark && (
-            <div className="position-absolute top-0 start-0 bottom-0 end-0 bg-gradient-primary-dark-1 opacity-01"></div>
-          )}
-          <NewsLetter />
         </div>
       </section>
       <section

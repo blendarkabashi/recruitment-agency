@@ -27,35 +27,35 @@ export default function Footer4() {
         </a>
       </div>
       {/* End Back to Top Link */}
-      <div className="page-section">
+      <div className="page-section" style={{ paddingBottom: "0px" }}>
         <div className="row">
           <div className="col-lg-6 mb-md-60">
             <h2 className="section-title mb-60 mb-sm-40">
-              Ready to get started with Resonance Template?
+              Ready to start hiring?
             </h2>
             <div className="local-scroll">
               <a
-                href="#contact"
+                href="mailto:info@hyperlinkrecruiting.com"
                 className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
               >
-                <span>Get a Consultation</span>
+                <span>Contact us</span>
               </a>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1 pt-10">
             <div className="row">
-              <div className="col-md-6 mb-sm-40">
-                <ul className="fw-menu-large clearlist local-scroll">
-                  {navigationLinks.map((elm, i) => (
+              <div className="col-md-6">
+                {/* <ul className="fw-menu-large clearlist">
+                  {footerLinks2.map((elm, i) => (
                     <li key={i}>
                       <a href={elm.href}>{elm.text}</a>
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </div>
-              <div className="col-md-6">
-                <ul className="fw-menu-large clearlist">
-                  {footerLinks2.map((elm, i) => (
+              <div className="col-md-6 mb-sm-40">
+                <ul className="fw-menu-large clearlist local-scroll">
+                  {navigationLinks.map((elm, i) => (
                     <li key={i}>
                       <a href={elm.href}>{elm.text}</a>
                     </li>
@@ -66,13 +66,10 @@ export default function Footer4() {
           </div>
         </div>
       </div>
-      {/* Footer Text */}
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md-6 mb-sm-40">
-          Made with love for great people. <br />© IB-Themes{" "}
-          {new Date().getFullYear()}.
+          Hyperlink Recruiting - {new Date().getFullYear()}.
         </div>
-        {/* Social Links */}
         <div className="col-md-6 footer-2-social-links text-md-end mb-md-40">
           {socialMediaLinks.map((elm, i) => (
             <React.Fragment key={i}>
@@ -88,9 +85,7 @@ export default function Footer4() {
             </React.Fragment>
           ))}
         </div>
-        {/* End Social Links */}
-      </div>
-      {/* End Footer Text */}
+      </div> */}
     </div>
   );
 }

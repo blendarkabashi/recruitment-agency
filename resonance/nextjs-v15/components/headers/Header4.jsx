@@ -40,7 +40,7 @@ export default function Header4({ links }) {
           </li>
           <li>
             <a href="tel:+18376528800">
-              <i className="mi-mobile size-24 color-primary-1 align-center" />
+              <i className="mi-mobile size-24 color-primary-1 align-center" />{" "}
               +1 (929) 578-0864
             </a>
           </li>
