@@ -10,14 +10,15 @@ export default function Hero1() {
           <div className="col-lg-6 col-xl-5 offset-xl-1 d-flex align-items-center order-first order-lg-last mb-md-60">
             <div className="w-100 text-center text-lg-start">
               <h1 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp">
-                Global Marketing Consulting Agency
+                Welcome to HYPERLINK RECRUITING
               </h1>
               <p
                 className="hs-descr mb-50 mb-sm-40 wow fadeInUp"
                 data-wow-delay="0.15s"
               >
-                We’re a global marketing company delivering innovative solutions
-                to our clients.
+                We connect businesses with top-tier, vetted senior developers
+                from Europe—delivering expertise, efficiency, and competitive
+                pricing worldwide.
               </p>
               <div
                 className="wow fadeInUp wch-unset"

@@ -7,7 +7,7 @@ export default function Steps() {
       <div className="row">
         <div className="col-md-10 offset-md-1 col-lg-6 offset-lg-3">
           <h2 className="section-title mb-70 mb-sm-50 text-center">
-            Three Simple Steps to Succeed at Investing
+            Three Simple Steps to Hiring Top Tech Talent
           </h2>
           {/* Steps Grid */}
           <div className="mb-n20">

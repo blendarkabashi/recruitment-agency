@@ -17,13 +17,20 @@ export default function Testimonials() {
           {!(i % 2) ? (
             <div className="row mb-80 mb-sm-60">
               <div className="col-md-5 col-lg-4 offset-lg-1 mb-sm-40">
-                <div className="overflow-hidden round">
+                <div
+                  className="overflow-hidden round"
+                  style={{ height: "100%" }}
+                >
                   <Image
                     src={elm.imageSrc}
                     width={656}
                     height={800}
                     alt="Image Description"
                     className="wow scaleOutIn"
+                    style={{
+                      objectFit: "cover",
+                      height: "380px",
+                    }}
                   />
                 </div>
               </div>
@@ -56,6 +63,10 @@ export default function Testimonials() {
                     height={800}
                     alt="Image Description"
                     className="wow scaleOutIn"
+                    style={{
+                      objectFit: "cover",
+                      height: "380px",
+                    }}
                   />
                 </div>
               </div>

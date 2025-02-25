@@ -117,18 +117,18 @@ export const testimonials4 = [
 
 export const testimonialItems = [
   {
-    imageSrc: "/assets/images/demo-corporate/testimonial-1.jpg",
+    imageSrc: "/assets/images/adam.jpg",
     quote:
-      "This template is so beautiful and has such wonderful new options. It is updated often which gives me even more quality. The support is the absolute best I've ever had the pleasure of interacting with. Quick, courteous, premium and extremely helpful!",
-    author: "Adam Peterson",
-    position: "Marketing Consultant",
+      "HYPERLINK RECRUITING put together an incredible development team that brought our real estate CRM to life. The process was seamless, and the talent they provided was top-tier. If you need skilled developers who truly deliver, they’re the team to call.",
+    author: "Adam Mahfouda",
+    position: "CEO | Oxford Property Group New York",
   },
   {
-    imageSrc: "/assets/images/demo-corporate/testimonial-2.jpg",
+    imageSrc: "/assets/images/gent.jpeg",
     quote:
-      "Optimization and structure are very good for SEO basics. A remarkable model, everything has been thought out with talent, the design, the various adaptations. Beautiful template, nice code and easy to customize.",
-    author: "Jordan Harvey",
-    position: "SEO/SMO Expert",
+      "We needed a skilled full-stack developer to help us with our software development work at the company, and HYPERLINK found one who has been a key part of our team for over two years. The hiring process was smooth, and the quality of talent exceeded our expectations. Highly recommended for anyone looking for top developers.",
+    author: "Gent Kabashi",
+    position: "CEO | Dimensio Housing",
   },
 ];
 

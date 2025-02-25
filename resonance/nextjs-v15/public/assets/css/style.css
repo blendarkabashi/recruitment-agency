@@ -318,7 +318,7 @@ div:focus.focus-visible {
   outline: 3px dotted #36a367 !important;
   outline-offset: 0 !important;
 }
-img:not([draggable]),
+img:not([draggable]):not(.special-class),
 embed,
 object,
 video {

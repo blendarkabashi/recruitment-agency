@@ -13,7 +13,7 @@ export default function Hero1Dark() {
                 className="hs-title-9 mb-40 mb-sm-20 wow fadeInUp animated"
                 style={{ visibility: "visible", animationName: "fadeInUp" }}
               >
-                Global Marketing Consulting Agency
+                Welcome to <strong>HYPERLINK</strong>
               </h1>
               <p
                 className="hs-descr mb-50 mb-sm-40 wow fadeInUp animated"
@@ -24,8 +24,9 @@ export default function Hero1Dark() {
                   animationName: "fadeInUp",
                 }}
               >
-                We’re a global marketing company delivering innovative solutions
-                to our clients.
+                We connect businesses with top-tier, vetted senior developers
+                from Europe—delivering expertise, efficiency, and competitive
+                pricing worldwide.
               </p>
               <div
                 className="wow fadeInUp wch-unset animated"
@@ -42,7 +43,7 @@ export default function Hero1Dark() {
                     href="#contact"
                     className="btn btn-mod btn-color btn-large btn-round btn-hover-anim"
                   >
-                    <span>Get a Consultation</span>
+                    <span>Get in touch today!</span>
                   </a>
                 </div>
                 {/* Features List */}
@@ -52,9 +53,15 @@ export default function Hero1Dark() {
                     <div className="features-list-icon features-list-color-1">
                       <i className="mi-check" aria-hidden="true" />
                     </div>
-                    <div className="features-list-text">
-                      No credit card required
+                    <div className="features-list-text">No Upfront Fees</div>
+                  </div>
+                  {/* End Features List Item */}
+                  {/* Features List Item */}
+                  <div className="d-flex justify-content-center justify-content-lg-start mt-10">
+                    <div className="features-list-icon features-list-color-1">
+                      <i className="mi-check" aria-hidden="true" />
                     </div>
+                    <div className="features-list-text">Free Consultation</div>
                   </div>
                   {/* End Features List Item */}
                   {/* Features List Item */}
@@ -63,18 +70,14 @@ export default function Hero1Dark() {
                       <i className="mi-check" aria-hidden="true" />
                     </div>
                     <div className="features-list-text">
-                      Free 30 minute consultation
+                      Vetted Senior Developers
                     </div>
                   </div>
-                  {/* End Features List Item */}
-                  {/* Features List Item */}
                   <div className="d-flex justify-content-center justify-content-lg-start mt-10">
                     <div className="features-list-icon features-list-color-1">
                       <i className="mi-check" aria-hidden="true" />
                     </div>
-                    <div className="features-list-text">
-                      Free marketing report
-                    </div>
+                    <div className="features-list-text">Fast Hiring</div>
                   </div>
                   {/* End Features List Item */}
                 </div>
@@ -102,7 +105,7 @@ export default function Hero1Dark() {
               {/* Main Image */}
               <div className="composition-8-image bg-dark-3">
                 <Image
-                  src="/assets/images/demo-corporate/hs-image-2.jpg"
+                  src="/assets/images/hero.jpg"
                   width={706}
                   height={800}
                   alt="Image Description"
@@ -138,10 +141,10 @@ export default function Hero1Dark() {
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Marketing Consulting
+                          Professional, vetted Senior Developers
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Marketing Consulting
+                          Professional, vetted Senior Developers
                         </span>
                       </span>
                     </span>
@@ -158,10 +161,10 @@ export default function Hero1Dark() {
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Search Engine Optimization
+                          Expert headhunting team
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Search Engine Optimization
+                          Expert headhunting team
                         </span>
                       </span>
                     </span>
@@ -178,10 +181,10 @@ export default function Hero1Dark() {
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Social Media Marketing
+                          Custom Hiring Solutions
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Social Media Marketing
+                          Custom Hiring Solutions
                         </span>
                       </span>
                     </span>
