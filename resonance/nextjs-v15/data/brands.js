@@ -22,7 +22,7 @@ export const brandsDark = [
 export const clients = [
   {
     id: 1,
-    src: "/assets/images/clients-logos/logo-grid-dark/logo-1.png",
+    src: "/assets/images/oxford.png",
     width: 110,
     height: 33,
     alt: "Image description is here",

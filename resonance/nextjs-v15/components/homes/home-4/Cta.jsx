@@ -5,7 +5,7 @@ export default function Cta() {
   return (
     <>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-12">
           <h2 className="section-title-tiny opacity-09 mb-30">
             Trusted by leading companies
           </h2>
