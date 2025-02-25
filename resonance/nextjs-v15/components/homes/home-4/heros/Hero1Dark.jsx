@@ -141,10 +141,10 @@ export default function Hero1Dark() {
                     <span data-btn-animate="y">
                       <span className="btn-animate-y">
                         <span className="btn-animate-y-1">
-                          Professional, vetted Senior Developers
+                          Professional Senior Developers
                         </span>
                         <span className="btn-animate-y-2" aria-hidden="true">
-                          Professional, vetted Senior Developers
+                          Professional Senior Developers
                         </span>
                       </span>
                     </span>
