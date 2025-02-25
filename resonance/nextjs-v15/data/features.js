@@ -80,19 +80,19 @@ export const features = [
 export const features2 = [
   {
     id: 1,
-    text: "Business to business",
+    text: "Define hiring needs",
   },
   {
     id: 2,
-    text: "Non-profit business",
+    text: "Get salary guidance",
   },
   {
     id: 3,
-    text: "Business to customer",
+    text: "Efficient recruitment plan",
   },
   {
     id: 4,
-    text: "Ecommerce",
+    text: "Devise a hiring strategy",
   },
 ];
 

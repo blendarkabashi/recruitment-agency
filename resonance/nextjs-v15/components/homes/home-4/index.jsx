@@ -104,7 +104,7 @@ export default function Home4({ onePage = false, dark = false }) {
         className="page-section scrollSpysection bg-primary-1 bg-color-alpha-90 bg-scroll light-content"
         style={{
           backgroundImage:
-            "url(/assets/images/demo-corporate/section-bg-2.jpg)",
+            "url(/assets/images/demo-corporate/section-bgg-2.jpg)",
         }}
         id="how-we-work"
       >
@@ -134,35 +134,23 @@ export default function Home4({ onePage = false, dark = false }) {
           <div className="row">
             <div className="col-md-7 offset-md-5 col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
               <h2 className="section-title mb-40 mb-xs-30">
-                Marketing <span className="mark-decoration-5">Jumpstart</span>{" "}
-                for Your Business
+                Get a <span className="mark-decoration-5">FREE</span>{" "}
+                consultation
               </h2>
               <p className="section-descr mb-50 mb-sm-40">
-                The marketing audit is generally conducted by a third person,
-                not a member of an organization.
+                Discuss your hiring needs with our team of experts and start
+                hiring immediately.
               </p>
               <div className="local-scroll mb-70 mb-sm-50">
-                {onePage ? (
-                  <>
-                    {" "}
-                    <a
-                      href="#contact"
-                      className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
-                    >
-                      <span>Get a Consultation</span>
-                    </a>
-                  </>
-                ) : (
-                  <>
-                    {" "}
-                    <Link
-                      href={`/corporate-contact${dark ? "-dark" : ""}`}
-                      className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
-                    >
-                      <span>Get a Consultation</span>
-                    </Link>
-                  </>
-                )}
+                <>
+                  {" "}
+                  <a
+                    href="#contact"
+                    className="btn btn-mod btn-w-c btn-large btn-round btn-hover-anim opacity-09"
+                  >
+                    <span>Contact Now</span>
+                  </a>
+                </>
               </div>
               {/* Features List */}
               <Cta2 />

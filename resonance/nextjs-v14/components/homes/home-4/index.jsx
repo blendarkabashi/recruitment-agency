@@ -277,7 +277,7 @@ export default function Home4({ onePage = false, dark = false }) {
         className="page-section bg-primary-1 bg-color-alpha-90 bg-scroll light-content"
         style={{
           backgroundImage:
-            "url(/assets/images/demo-corporate/section-bg-2.jpg)",
+            "url(/assets/images/demo-corporate/section-bgg-2.jpg)",
         }}
       >
         <Steps />
