@@ -133,7 +133,13 @@ export default function Home4({ onePage = false, dark = false }) {
         <div className="container position-relative">
           <div className="row">
             <div className="col-md-7 offset-md-5 col-lg-6 offset-lg-6 col-xl-5 offset-xl-7">
-              <h2 className="section-title mb-40 mb-xs-30">
+              <h2
+                className="section-title mb-40 mb-xs-30"
+                style={{
+                  fontSize: "49px !important",
+                  marginBottom: "20px !important",
+                }}
+              >
                 Get a <span className="mark-decoration-5">FREE</span>{" "}
                 consultation
               </h2>
