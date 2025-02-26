@@ -24,7 +24,10 @@ export default function Testimonials() {
                     height={800}
                     alt="Image Description"
                     className="wow scaleOutIn"
-                    style={{ height: "350px", objectFit: "cover" }}
+                    style={{
+                      height: "380px",
+                      objectFit: "cover",
+                    }}
                   />
                 </div>
               </div>
@@ -57,7 +60,10 @@ export default function Testimonials() {
                     height={800}
                     alt="Image Description"
                     className="wow scaleOutIn"
-                    style={{ height: "350px", objectFit: "cover" }}
+                    style={{
+                      height: "380px",
+                      objectFit: "cover",
+                    }}
                   />
                 </div>
               </div>
