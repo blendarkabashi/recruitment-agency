@@ -120,14 +120,14 @@ export const testimonialItems = [
     imageSrc: "/assets/images/adam.jpg",
     quote:
       "HYPERLINK RECRUITING put together an incredible development team that brought our real estate CRM to life. The process was seamless, and the talent they provided was top-tier. If you need skilled developers who truly deliver, they’re the team to call.",
-    author: "Adam Mahfouda",
+    author: "Adam M.",
     position: "CEO | Oxford Property Group New York",
   },
   {
     imageSrc: "/assets/images/gent.jpeg",
     quote:
       "We needed a skilled full-stack developer to help us with our software development work at the company, and HYPERLINK found one who has been a key part of our team for over two years. The hiring process was smooth, and the quality of talent exceeded our expectations. Highly recommended for anyone looking for top developers.",
-    author: "Gent Kabashi",
+    author: "Gent K.",
     position: "CEO | Dimensio Housing",
   },
 ];
