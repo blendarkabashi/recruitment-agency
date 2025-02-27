@@ -167,7 +167,7 @@ Primary use: Multipurpose Template
    ============================== */
 
 :root {
-  --font-global: "DM Sans", sans-serif;
+  --font-global: "benzin-regular", sans-serif;
   --font-alt: "DM Sans", sans-serif;
   --font-serif: Georgia, "Times New Roman", Times, serif;
   --full-wrapper-margin-x: 30px;
