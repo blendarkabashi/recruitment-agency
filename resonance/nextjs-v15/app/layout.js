@@ -4,7 +4,7 @@ import "swiper/css";
 import "../public/assets/css/styles.css";
 import "jarallax/dist/jarallax.min.css";
 import "swiper/css/effect-fade";
-
+import { Analytics } from "@vercel/analytics/react";
 import "photoswipe/dist/photoswipe.css";
 import { usePathname } from "next/navigation";
 import { parallaxMouseMovement, parallaxScroll } from "@/utlis/parallax";
@@ -69,6 +69,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
+      <Analytics />
       <body className="appear-animate body">{children}</body>
     </html>
   );
